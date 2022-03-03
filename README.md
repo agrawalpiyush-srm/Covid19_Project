@@ -85,3 +85,19 @@ After generating the topnet file, compute the centrality score of each gene by r
 Next step is sorting the output file on the basis of "ripple_centrality" score and selecting the top required genes.
 
 We have provided the example ouput file in the result folder for the reader.
+
+**############################ Creating Heatmap #######################################**
+
+Create a comma separated file to generate heatmap. Sample input file is provided "heatmap_input.csv" and the generated output is a jpg image "Heatmap.jpg"
+
+**Code usage:**
+
+/usr/local/bin/Rscript heatmap.r
+
+**############################ Creating DotPlot #######################################**
+
+Create a comma separated file to generate Dotplot. Sample input file is provided "dotplot_input.csv" and the generated output is a jpg image "Dotplot.jpg"
+
+**Code usage:**
+
+/usr/local/bin/Rscript dotplot.r
