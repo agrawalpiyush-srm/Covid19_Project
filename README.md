@@ -48,15 +48,25 @@ python extract_fdr_network.py test_data/results/Activated_response test_data/res
 Here,
 
 a) "input_data" is a tab seprated microarray data file with all the samples to be studied;
+
 b) "human_PPIN.txt" is the unweighted network file
+
 c) "Sample1" is the name of perturbation sample to study
+
 d) "0.01" is the percentile threshold
+
 e) "2" is the path length threshold
+
 f) "0.05" is the q-score cutoff
+
 g) "1000" is the number of randomizations
+
 h) "results" is the output directory
+
 i) "thresh_TopNet_sizes.txt" is the output file with all the percentile and q-score threshold.
+
 j) "Activated_Response" is the file name for base response network (we'll put it in the output directory)
+
 k) "Activated_Response_TopNet.txt" is the file name for TopNet (we'll put it in the output directory)
 
 **########################## Computing centrality score and top central genes ###########**
