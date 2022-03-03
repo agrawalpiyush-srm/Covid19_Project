@@ -22,6 +22,8 @@ The provided code compute value for one sample. User can run the code in loop fo
 /usr/local/bin/Rscript Activated_node_weight.r      ##### For computing Activated Node Weight
 
 /usr/local/bin/Rscript Repressed_node_weight.r      ##### For computing Repressed Node Weight
+
+
 **########################### Running PathExt for Generating the TopNets ##########**
 
 1. Compute the percentile threshold and q-score at which you user want minimum nubmer of nodes in the topnet. Run the following commands inside the folder where all the python codes are present.
