@@ -90,6 +90,8 @@ We have provided the example ouput file in the result folder for the reader.
 
 Create a comma separated file to generate heatmap. Sample input file is provided "heatmap_input.csv" and the generated output is a jpg image "Heatmap.jpg"
 
+Code is present in the "code" folder
+
 **Code usage:**
 
 /usr/local/bin/Rscript heatmap.r
@@ -98,6 +100,10 @@ Create a comma separated file to generate heatmap. Sample input file is provided
 
 Create a comma separated file to generate Dotplot. Sample input file is provided "dotplot_input.csv" and the generated output is a jpg image "Dotplot.jpg"
 
+Code is present in the "code" folder
+
 **Code usage:**
 
 /usr/local/bin/Rscript dotplot.r
+
+##############################
