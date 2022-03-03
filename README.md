@@ -1,13 +1,13 @@
 # covid19_project
 This project is about identifying in silico novel anti SARS-CoV-2 drug targets based on network approach
 
-##################### Instructions for the Users ###################
+**##################### Instructions for the Users ###################**
   
 In this study, we implemented netwrok based approach to identify differentially regulated paths (also referred as TopNets). These TopNets are of two types; (i) Activated; and (ii) Repressed. Further, from these TopNets, we identify top central genes.
 
 PathExt requires node weights as an input for each gene in the corresponding sample. For more details, refer PathExt paper at "https://academic.oup.com/bioinformatics/article/37/9/1254/5952670?login=true"
 
-#################### Node Weight Computation ######################
+**#################### Node Weight Computation ######################**
 
 For computing node weights, user need to provide the input data in the csv file format. The input data should consist of 3 columns. First column should be gene list. Second column should be the value of those genes in control sample and Third column should be the value of those genes in the case. Order of the column is very important for the code.
 
@@ -17,7 +17,7 @@ Next, run code "Activated_node_weight.r" to compute node weight for the Activate
 
 The provided code compute value for one sample. User can run the code in loop for multiple samples.
 
-########################### Running PathExt for Generating the TopNets ##########
+**########################### Running PathExt for Generating the TopNets ##########**
 
 1. Compute the percentile threshold and q-score at which you user want minimum nubmer of nodes in the topnet. Run the following commands inside the folder where all the python codes are present.
 
@@ -59,7 +59,7 @@ i) "thresh_TopNet_sizes.txt" is the output file with all the percentile and q-sc
 j) "Activated_Response" is the file name for base response network (we'll put it in the output directory)
 k) "Activated_Response_TopNet.txt" is the file name for TopNet (we'll put it in the output directory)
 
-########################## Computing centrality score and top central genes ###########
+**########################## Computing centrality score and top central genes ###########**
 
 After generating the topnet file, compute the centrality score of each gene by running the following command
 
