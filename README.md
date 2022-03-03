@@ -13,7 +13,7 @@ For computing node weights, user need to provide the input data in the csv file 
 
 It's recommended that user should provide the gene values in the quantile normalize form.
 
-Next, run code "Activated_node_weight.r" to compute node weight for the Activated Network and "Repressed_node_weight.r" to compute node weight for the Repressed Network. The codes are provided in the folder named "node_weights"
+Next, run code "Activated_node_weight.r" to compute node weight for the Activated Network and "Repressed_node_weight.r" to compute node weight for the Repressed Network. The codes are provided in the "code" folder
 
 The provided code compute value for one sample. User can run the code in loop for multiple samples.
 
