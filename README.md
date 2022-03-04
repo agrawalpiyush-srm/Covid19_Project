@@ -118,10 +118,34 @@ User can modify the parameters as per their usage.
 
 Here, we have provided the code, the sample input file and the output image in the **"code"** folder
 
-#######################################################################################################
+**############################################### Virtual Screening #######################################################**
+
+For virtual screening, we downloaded the 3D structure of the protein from RCSB-PDB database and ligands in SMILES (.smi) format from ZINC database.
+
+We used AutoDock Vina for virtual screening experiments. The software requires the ligand file in .mol2 file format. Following command was used to convert the ligand from .smi to .mol2 file format using obabel software.
+
+**obabel -i smi mol1 -o mol2 --gen3D -O test.mol2**
+
+Once the ligand was converted into .mol2 file format, we prepared the protein for docking by the following command. This command will select the required chain for docking, and will remove the heteroatoms and unwanted metals from the structure.
+
+**pdb_selchain -A 4qcl.pdb | pdb_delhetatm | pdb_tidy |grep "^ATOM" > 4qcl_processed.pdb**
+
+Once the protein and ligands are ready, we need to convert them for docking. User should download the Autodock Vina software and install it.
+Now we convert the receptor and ligand files into the .pdbqt file format. This file format is used by Vina for docking. Command for the same is
+
+python /usr/local/apps/Autodock/mgltools/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -r receptor.pdb -o receptor.pdbqt
+python /usr/local/apps/Autodock/mgltools/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l ligand.mol2 -o ligand.pdbqt
+
+After converting it into .pdbwt file format, run the code vina.pl as given below
+
+**perl vina.pl**
+
+This code requires the **"configuration file"** where we define the grid size of the box and the coordinates of the protein where we want to dock the ligand. This can be done using UCSF chimera tool.
+
+Here, we have provided the code (vina.pl), receptor (receptor.pdbqt) and ligand (ligand.pdbqt) file, configuration file (conf.txt) and the output files (ligand_out.pdbqt & ligand.pdbqt_log.out) generated after running the vina.
+
 
 **Tools and packages used:**
-
 Python 3.6.9
 R 3.6
 Pandas 0.25.3
