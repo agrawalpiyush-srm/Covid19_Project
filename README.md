@@ -123,10 +123,19 @@ Here, we have provided the code, the sample input file and the output image in t
 **Tools and packages used:**
 
 Python 3.6.9
+R 3.6
 Pandas 0.25.3
 Networkx 1.11
 Numpy 1.17.4
 Random
 Sys
 Math
-
+ggplot2
+dplyr
+tidyverse
+pheatmap
+loess
+CirGo
+GoSemSim
+openbabel
+AutoDock Vina
