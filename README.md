@@ -140,7 +140,7 @@ After converting it into .pdbwt file format, run the code vina.pl as given below
 
 **vina --config conf.txt --ligand ligand.pdbqt --log ligand_log.out**
 
-This code requires the **"configuration file"** where we define the grid size of the box and the coordinates of the protein where we want to dock the ligand. This can be done using UCSF chimera tool.
+This code requires the **"conf.txt file"** where we define the grid size of the box and the coordinates of the protein where we want to dock the ligand. This can be done using UCSF chimera tool.
 
 **Tools and packages used:**<br>
 Python 3.6.9<br>
