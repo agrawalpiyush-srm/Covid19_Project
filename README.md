@@ -118,5 +118,14 @@ User can modify the parameters as per their usage.
 
 Here, we have provided the code, the sample input file and the output image in the **"code"** folder
 
-###############################################
+#######################################################################################################
+
+Tools and packages used:
+Python 3.6.9
+Pandas 0.25.3
+Networkx 1.11
+Numpy 1.17.4
+Random
+Sys
+Math
 
