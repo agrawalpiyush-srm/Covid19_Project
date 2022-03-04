@@ -142,9 +142,6 @@ After converting it into .pdbwt file format, run the code vina.pl as given below
 
 This code requires the **"configuration file"** where we define the grid size of the box and the coordinates of the protein where we want to dock the ligand. This can be done using UCSF chimera tool.
 
-Here, we have provided the receptor (receptor.pdbqt) and ligand (ligand.pdbqt) file, configuration file (conf.txt) and the output files (ligand_out.pdbqt & ligand.pdbqt_log.out) generated after running the vina. These files are present in the folder **"code"**
-
-
 **Tools and packages used:**<br>
 Python 3.6.9<br>
 R 3.6<br>
