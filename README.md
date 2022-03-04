@@ -147,19 +147,35 @@ Here, we have provided the code (vina.pl), receptor (receptor.pdbqt) and ligand 
 
 **Tools and packages used:**
 Python 3.6.9
+
 R 3.6
+
 Pandas 0.25.3
+
 Networkx 1.11
+
 Numpy 1.17.4
+
 Random
+
 Sys
+
 Math
+
 ggplot2
+
 dplyr
+
 tidyverse
+
 pheatmap
+
 loess
+
 CirGo
+
 GoSemSim
+
 openbabel
+
 AutoDock Vina
