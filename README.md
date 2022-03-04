@@ -138,7 +138,7 @@ python /usr/local/apps/Autodock/mgltools/MGLToolsPckgs/AutoDockTools/Utilities24
 
 After converting it into .pdbwt file format, run the code vina.pl as given below
 
-**perl vina.pl**
+**vina --config conf.txt --ligand ligand.pdbqt --log ligand_log.out**
 
 This code requires the **"configuration file"** where we define the grid size of the box and the coordinates of the protein where we want to dock the ligand. This can be done using UCSF chimera tool.
 
