@@ -145,36 +145,21 @@ This code requires the **"configuration file"** where we define the grid size of
 Here, we have provided the code (vina.pl), receptor (receptor.pdbqt) and ligand (ligand.pdbqt) file, configuration file (conf.txt) and the output files (ligand_out.pdbqt & ligand.pdbqt_log.out) generated after running the vina.
 
 
-**Tools and packages used:**
+**Tools and packages used:**<br>
 Python 3.6.9<br>
-R 3.6
-
-Pandas 0.25.3
-
-Networkx 1.11
-
-Numpy 1.17.4
-
-Random
-
-Sys
-
-Math
-
-ggplot2
-
-dplyr
-
-tidyverse
-
-pheatmap
-
-loess
-
-CirGo
-
-GoSemSim
-
-openbabel
-
-AutoDock Vina
+R 3.6<br>
+Pandas 0.25.3<br>
+Networkx 1.11<br>
+Numpy 1.17.4<br>
+Random<br>
+Sys<br>
+Math<br>
+ggplot2<br>
+dplyr<br>
+tidyverse<br>
+pheatmap<br>
+loess<br>
+CirGo<br>
+GoSemSim<br>
+openbabel<br>
+AutoDock Vina<br>
