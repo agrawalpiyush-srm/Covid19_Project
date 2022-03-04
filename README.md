@@ -106,4 +106,17 @@ Code is present in the "code" folder
 
 /usr/local/bin/Rscript dotplot.r
 
-##############################
+**############################## Creating Circular Images using CirGO #####################**
+
+First download the CirGo software from the https://github.com/IrinaVKuznetsova/CirGO and install it.
+
+Once the software is installed, you have to run the following command using the sample input file.
+
+python CirGO.py -inputFile cirgo_input_file.csv -outputFile out.svg -fontSize 7 -numCat 40 -legend Test_Data
+
+User can modify the parameters as per their usage.
+
+Here, we have provided the code, the sample input file and the output image
+
+###############################################
+
